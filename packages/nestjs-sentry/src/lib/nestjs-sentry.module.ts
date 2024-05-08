@@ -1,6 +1,6 @@
 import { Module, Global } from '@nestjs/common';
 
-// Testing commit
+// Testing commit v2
 @Global()
 @Module({
   controllers: [],
