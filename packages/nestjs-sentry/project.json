@@ -1,0 +1,33 @@
+{
+  "name": "nestjs-sentry",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "packages/nestjs-sentry/src",
+  "projectType": "library",
+  "release": {
+    "version": {
+      "generatorOptions": {
+        "packageRoot": "dist\\{projectRoot}",
+        "currentVersionResolver": "git-tag"
+      }
+    }
+  },
+  "tags": [],
+  "targets": {
+    "build": {
+      "executor": "@nx/js:tsc",
+      "outputs": ["{options.outputPath}"],
+      "options": {
+        "outputPath": "dist/packages/nestjs-sentry",
+        "tsConfig": "packages/nestjs-sentry/tsconfig.lib.json",
+        "packageJson": "packages/nestjs-sentry/package.json",
+        "main": "packages/nestjs-sentry/src/index.ts",
+        "assets": ["packages/nestjs-sentry/*.md"]
+      }
+    },
+    "nx-release-publish": {
+      "options": {
+        "packageRoot": "dist\\{projectRoot}"
+      }
+    }
+  }
+}
