@@ -1,3 +1,15 @@
+## 0.0.2-4 (2024-05-08)
+
+
+### 🚀 Features
+
+- test ([6e11f2d](https://github.com/adamghowiba/semrel-test/commit/6e11f2d))
+
+
+### ❤️  Thank You
+
+- Adam @adamghowiba
+
 # Changelog
 
 This file was generated using [@jscutlery/semver](https://github.com/jscutlery/semver).
