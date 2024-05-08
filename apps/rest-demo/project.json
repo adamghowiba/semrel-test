@@ -19,6 +19,12 @@
           "buildTarget": "rest-demo:build:production"
         }
       }
+    },
+    "version": {
+      "executor": "@jscutlery/semver:version",
+      "options": {
+        "preset": "angular"
+      }
     }
   }
 }
