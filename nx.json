@@ -62,7 +62,7 @@
       "nestjs-sentry"
     ],
     "changelog": {
-      "workspaceChangelog": {
+      "projectChangelogs": {
         "createRelease": "github"
       }
     },
