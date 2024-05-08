@@ -68,6 +68,9 @@
     },
     "version": {
       "conventionalCommits": true,
+      "git": {
+        "tag": true
+      },
       "preVersionCommand": "npx nx run-many -t build"
     }
   }
