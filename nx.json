@@ -61,6 +61,11 @@
     "projects": [
       "nestjs-sentry"
     ],
+    "changelog": {
+      "workspaceChangelog": {
+        "createRelease": "github"
+      }
+    },
     "version": {
       "conventionalCommits": true,
       "preVersionCommand": "npx nx run-many -t build"
