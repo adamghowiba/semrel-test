@@ -2,6 +2,10 @@
 
 This file was generated using [@jscutlery/semver](https://github.com/jscutlery/semver).
 
+## [1.0.1](https://github.com/adamghowiba/semrel-test/compare/nestjs-sentry-1.0.0...nestjs-sentry-1.0.1) (2024-05-08)
+
+
+
 # [1.0.0](https://github.com/adamghowiba/semrel-test/compare/nestjs-sentry-0.0.3...nestjs-sentry-1.0.0) (2024-05-08)
 
 
