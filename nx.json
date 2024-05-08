@@ -62,6 +62,7 @@
       "nestjs-sentry"
     ],
     "version": {
+      "conventionalCommits": true,
       "preVersionCommand": "npx nx run-many -t build"
     }
   }

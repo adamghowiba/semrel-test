@@ -10,20 +10,10 @@
         "storage": "tmp/local-registry/storage"
       }
     },
-    "github": {
-      "executor": "@jscutlery/semver:github",
-      "options": {
-        "tag": "${tag}",
-        "notes": "${notes}"
-      }
-    },
     "version": {
       "executor": "@jscutlery/semver:version",
       "options": {
-        "preset": "angular",
-        "postTargets": [
-          "github"
-        ]
+        "preset": "angular"
       }
     }
   }
