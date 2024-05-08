@@ -14,7 +14,9 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@agkit/nestjs-sentry": ["packages/nestjs-sentry/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
