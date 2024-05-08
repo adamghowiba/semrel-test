@@ -1,0 +1,24 @@
+{
+  "name": "rest-demo",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "apps/rest-demo/src",
+  "projectType": "application",
+  "tags": [],
+  "targets": {
+    "serve": {
+      "executor": "@nx/js:node",
+      "defaultConfiguration": "development",
+      "options": {
+        "buildTarget": "rest-demo:build"
+      },
+      "configurations": {
+        "development": {
+          "buildTarget": "rest-demo:build:development"
+        },
+        "production": {
+          "buildTarget": "rest-demo:build:production"
+        }
+      }
+    }
+  }
+}
