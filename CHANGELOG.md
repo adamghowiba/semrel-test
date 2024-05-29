@@ -1,3 +1,10 @@
+## [0.0.1](https://github.com/adamghowiba/semrel-test/compare/v0.0.0...v0.0.1) (2024-05-29)
+
+
+### Bug Fixes
+
+* add release config ([f3c7452](https://github.com/adamghowiba/semrel-test/commit/f3c7452b7b6e318aaf3e477e8faaf172c2753096))
+
 # Changelog
 
 ## 0.0.3
