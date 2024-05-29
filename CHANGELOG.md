@@ -1,3 +1,10 @@
+## [0.0.4-alpha.1](https://github.com/adamghowiba/semrel-test/compare/v0.0.3...v0.0.4-alpha.1) (2024-05-29)
+
+
+### Bug Fixes
+
+* some change here ([c8d1508](https://github.com/adamghowiba/semrel-test/commit/c8d1508fff3d50d7659ef7125be84063dc8895cc))
+
 ## [0.0.3](https://github.com/adamghowiba/semrel-test/compare/v0.0.2...v0.0.3) (2024-05-29)
 
 ## [0.0.2](https://github.com/adamghowiba/semrel-test/compare/v0.0.1...v0.0.2) (2024-05-29)
