@@ -1,3 +1,5 @@
+## [0.0.4-alpha.2](https://github.com/adamghowiba/semrel-test/compare/v0.0.4-alpha.1...v0.0.4-alpha.2) (2024-05-29)
+
 ## [0.0.4-alpha.1](https://github.com/adamghowiba/semrel-test/compare/v0.0.3...v0.0.4-alpha.1) (2024-05-29)
 
 
