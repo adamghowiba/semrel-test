@@ -16,7 +16,8 @@ module.exports = {
           { type: 'style', release: 'patch' },
           { type: 'test', release: 'patch' },
           { type: 'build', release: 'patch' },
-          { type: 'ci', release: 'patch' },
+          { type: 'ci', release: false },
+          { type: 'build', release: false },
           { type: 'chore', release: 'patch' },
         ],
         "parserOpts": {
