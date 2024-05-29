@@ -8,9 +8,7 @@ import { NestFactory } from '@nestjs/core';
 
 import { AppModule } from './app/app.module';
 
-// Bug fix
-// chore
-//  feature
+// Test
 
 
 async function bootstrap() {
