@@ -1,3 +1,10 @@
+## [0.0.2](https://github.com/adamghowiba/semrel-test/compare/v0.0.1...v0.0.2) (2024-05-29)
+
+
+### Bug Fixes
+
+* ignore env ([a0c1f31](https://github.com/adamghowiba/semrel-test/commit/a0c1f3124b14620a820c289031ee30e70cebacb2))
+
 ## [0.0.1](https://github.com/adamghowiba/semrel-test/compare/v0.0.0...v0.0.1) (2024-05-29)
 
 
