@@ -8,13 +8,8 @@ import { NestFactory } from '@nestjs/core';
 
 import { AppModule } from './app/app.module';
 
-// Some major change
-// Another some
-// One more
-// Feature was added here
-// Feat added another
-// some change
-// Did something else
+// Bug fix
+
 
 async function bootstrap() {
   const app = await NestFactory.create(AppModule);
