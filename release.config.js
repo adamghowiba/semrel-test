@@ -2,7 +2,7 @@ module.exports = {
   branches: [
     'master',
     { name: 'next', prerelease: true },
-    { name: 'develop', prerelease: 'beta' },
+    { name: 'beta', prerelease: 'beta' },
     { name: 'alpha', prerelease: 'alpha' },
   ],
   plugins: [
