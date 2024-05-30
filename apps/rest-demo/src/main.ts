@@ -12,7 +12,7 @@ import { AppModule } from './app/app.module';
 // Test
 // did some mroe fixing
 // Added a new feature
-// Chore did a new chore
+// Chore did a new chorea
 
 async function bootstrap() {
   const app = await NestFactory.create(AppModule);
