@@ -14,7 +14,6 @@ import { AppModule } from './app/app.module';
 // Added a new featurea
 // Added 2 fix
 // Added a new feature
-// Added a bug fix
 
 async function bootstrap() {
   const app = await NestFactory.create(AppModule);
