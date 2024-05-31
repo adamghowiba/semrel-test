@@ -15,17 +15,13 @@
   "targets": {
     "build": {
       "executor": "@nx/js:tsc",
-      "outputs": [
-        "{options.outputPath}"
-      ],
+      "outputs": ["{options.outputPath}"],
       "options": {
         "outputPath": "dist/packages/nestjs-sentry",
         "tsConfig": "packages/nestjs-sentry/tsconfig.lib.json",
         "packageJson": "packages/nestjs-sentry/package.json",
         "main": "packages/nestjs-sentry/src/index.ts",
-        "assets": [
-          "packages/nestjs-sentry/*.md"
-        ]
+        "assets": ["packages/nestjs-sentry/*.md"]
       }
     },
     "nx-release-publish": {
@@ -36,10 +32,7 @@
     "version": {
       "executor": "@jscutlery/semver:version",
       "options": {
-        "preset": "angular",
-        "postTargets": [
-          "nestjs-sentry:github"
-        ]
+        "preset": "angular"
       }
     }
   }
