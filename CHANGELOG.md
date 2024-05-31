@@ -1,15 +1,3 @@
-## 0.0.2-5 (2024-05-31)
-
-
-### 🩹 Fixes
-
-- did something ([d7383c2](https://github.com/adamghowiba/semrel-test/commit/d7383c2))
-
-
-### ❤️  Thank You
-
-- Adam @adamghowiba
-
 # [0.1.0-alpha.1](https://github.com/adamghowiba/semrel-test/compare/v0.0.4-alpha.3...v0.1.0-alpha.1) (2024-05-29)
 
 
